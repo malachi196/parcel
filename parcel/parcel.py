@@ -18,16 +18,6 @@ class colors:
   white = '\033[97m'
   end = '\033[0m'
 
-#=====logo=====
-print(f"""__________________________________________
-      This project was made with {colors.cyan}Parcel{colors.end}, the:
-      {colors.red}P{colors.end}|{colors.red}ython file
-      {colors.green}A{colors.end}|{colors.green}rranger with
-      {colors.yellow}R{colors.end}|{colors.yellow}endering
-      {colors.magenta}C{colors.end}|{colors.magenta}omplex
-      {colors.red}E{colors.end}|{colors.red}lement
-      {colors.green}L{colors.end}|{colors.green}eafs
-{colors.end}__________________________________________""")
 #=====literals=====
 ZIPPED = pr.mode['zipped']
 STR = pr.type['str']
